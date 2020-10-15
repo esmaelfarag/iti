@@ -18,10 +18,21 @@
             body {
                 font-family: 'Nunito';
             }
+            .adm
+            {
+                font-size:15px;
+                position:fixed;
+                right:150px;
+                top:20px;
+                text-decoration: underline;
+                color:rgb(100,150,150);
+            }
         </style>
     </head>
     <body class="antialiased">
+        
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+        <a class="adm" href="/admin/login">Admin</a>
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -32,9 +43,11 @@
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
                         @endif
+                        
                     @endif
                 </div>
             @endif
+            
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
