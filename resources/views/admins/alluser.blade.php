@@ -3,7 +3,7 @@
 <br>
 <br>
 <form method="get" action="getusr" class="form-inline container" style="margin">
-    <input class="form-control mr-sm-2"  type="search" placeholder="Search" name="idsearch" aria-label="Search">
+    <input class="form-control mr-sm-2"  type="search" placeholder="Search By ID" name="idsearch" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
   <br>

@@ -26,9 +26,9 @@
         <td><a class="btn btn-danger" href="deletebook/{{$books['id']}}">Delete</a></td>
         </tr>
         @endforeach
-    
+        <tr><td colspan='8'><center><a class="btn btn-primary btn-lg" href="addbook">Add Book</a></center></td></tr>
     </table>
-    <center><a class="btn btn-primary btn-lg" href="addbook">Add Book</a></center>
+   
 
 
 

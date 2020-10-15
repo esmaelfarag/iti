@@ -12,7 +12,7 @@
 
 
                 <div class="mt-8 text-2xl text-center">
-                    <h2>All Books Borrowed</h2>
+                    <h2 style="color:#124;font-size: 200%;margin-bottom:15px;">All Books You Are Borrowed</h2>
 
                     @section('body')
                     <table class="table">

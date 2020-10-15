@@ -12,7 +12,7 @@
 
 
                 <div class="mt-8 text-2xl text-center">
-                    <h2>All Books Avaliable</h2>
+                    <h2 style="color:#124;font-size: 200%;margin-bottom:15px;">Library's  Shelves</h2>
                    
                     @section('body')
                     <table class="table">
