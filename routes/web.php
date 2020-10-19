@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Book;
-use Auth;
 use App\Models\User;
 
 /*
@@ -64,7 +63,10 @@ Route::prefix('admin')->group(function() {
   Route::get('/adprofile','App\Http\Controllers\AdminController@adprofile');
   Route::put('/edprof','App\Http\Controllers\AdminController@edprof');
 ////********************************************************************* */
- 
+Route::get('/returndate',function()
+{
+  return view('users.returndate');
+});
 ///////**********  We Are Admins ********************//////
 
 
